@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.5" type="plugin" group="system" method="upgrade">
+	<name>plg_system_pm_social_metatags</name>
+	<author>Ponto Mega</author>
+	<creationDate>2019-10-24</creationDate>
+	<copyright>Created by Uziel from Ponto Mega</copyright>
+	<license>GNU/Public</license>
+	<authorEmail>contato@pontomega.com.br</authorEmail>
+	<authorUrl>pontomega.com.br</authorUrl>
+	<version>1.0.0</version>
+	<description>PLG_SYSTEM_PM_SOCIAL_METATAGS_XML_DESCRIPTION</description>
+	<files>
+		<filename plugin="pm_social_metatags">pm_social_metatags.php</filename>
+		<folder>fields</folder>
+		<folder>language</folder>
+	</files>
+	<languages>
+		<language tag="en-GB">language/en-GB/en-GB.plg_system_pm_social_metatags.ini</language>
+		<language tag="en-GB">language/en-GB/en-GB.plg_system_pm_social_metatags.sys.ini</language>
+		<language tag="pt-BR">language/pt-BR/pt-BR.plg_system_pm_social_metatags.ini</language>
+		<language tag="pt-BR">language/pt-BR/pt-BR.plg_system_pm_social_metatags.sys.ini</language>
+	</languages>
+	<config>
+		<fields name="params">
+			<fieldset name="basic" addfieldpath="/plugins/system/pm_social_metatags/fields">
+				<field
+						name="fb_app_id"
+						type="text"
+						label="PLG_SYSTEM_PM_SOCIAL_METATAGS_FIELD_FB_APP_ID_LABEL"
+						description="PLG_SYSTEM_PM_SOCIAL_METATAGS_FIELD_FB_APP_ID_DESC" />
+				<field
+						name="default_image"
+						type="media"
+						default=""
+						label="PLG_SYSTEM_PM_SOCIAL_METATAGS_FIELD_DEFAULT_IMAGE_LABEL"
+						description="PLG_SYSTEM_PM_SOCIAL_METATAGS_FIELD_DEFAULT_IMAGE_DESC" />
+				<field
+						name="disable_in"
+						default="com_k2"
+						type="text"
+						label="PLG_SYSTEM_PM_SOCIAL_METATAGS_FIELD_DISABLE_IN_LABEL"
+						description="PLG_SYSTEM_PM_SOCIAL_METATAGS_FIELD_DISABLE_IN_DESC" />
+
+			</fieldset>
+		</fields>
+	</config>
+</extension>
