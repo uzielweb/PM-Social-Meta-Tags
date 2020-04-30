@@ -7,10 +7,10 @@
 		<type>plugin</type>
 		<client>0</client>
 		<client_id>0</client_id>
-		<version>1.0.0</version>
+		<version>1.0.1</version>
 		<infourl title="PM Social Meta Tags"></infourl>
 		<downloads>
-			<downloadurl type="full" format="zip">https://github.com/uzielweb/PM-Social-Meta-Tags/archive/PM_Social_Meta_Tags_v1.0.0.zip</downloadurl>
+			<downloadurl type="full" format="zip">https://github.com/uzielweb/PM-Social-Meta-Tags/archive/PM_Social_Meta_Tags_v1.0.1.zip</downloadurl>
 		</downloads>
 		<maintainer>Ponto Mega</maintainer>
 		<maintainerurl>https://www.pontomega.com.br</maintainerurl>
