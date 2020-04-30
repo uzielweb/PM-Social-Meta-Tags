@@ -7,7 +7,7 @@
 	<license>GNU/Public</license>
 	<authorEmail>contato@pontomega.com.br</authorEmail>
 	<authorUrl>pontomega.com.br</authorUrl>
-	<version>1.0.0</version>
+	<version>1.0.1</version>
 	<description>PLG_SYSTEM_PM_SOCIAL_METATAGS_XML_DESCRIPTION</description>
 	<files>
 		<filename plugin="pm_social_metatags">pm_social_metatags.php</filename>
