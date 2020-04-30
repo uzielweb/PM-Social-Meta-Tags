@@ -44,4 +44,8 @@
 			</fieldset>
 		</fields>
 	</config>
+	<update>https://raw.githubusercontent.com/uzielweb/PM-Social-Meta-Tags/master/updates.xml</update>
+	<updateservers>
+		<server type="extension" name="PM Social Meta Tags" priority="2">https://raw.githubusercontent.com/uzielweb/PM-Social-Meta-Tags/master/updates.xml</server>
+	</updateservers>
 </extension>
