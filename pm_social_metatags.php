@@ -80,6 +80,7 @@ class PlgSystemPm_social_metatags extends JPlugin
             $menu = JFactory::getApplication()->getMenu();
             $config = JFactory::getConfig();
             $option = JRequest::getCmd('option');
+           
             $view = JRequest::getCmd('view');
 			$sitename = $config->get('sitename');
             $content_description = $document->getDescription();
@@ -229,7 +230,8 @@ class PlgSystemPm_social_metatags extends JPlugin
 
 			$hdog_all = PHP_EOL.$hdog_type.$hdog_email.$hdog_url.$hdog_image.$hdog_site_name.$hdog_admins.$hdog_description.$hdTwitter_Title.$hdTwitter_Card.$hdTwitter_Site.$hdTwitter_Creator.$hdTwitter_Url.$hdTwitter_Descrition.$hdTwitter_Image ;
 
-			$disable_in = $this->params->get('disable_in');
+            $disable_in = explode(',',$this->params->get('disable_in'));
+            var_dump($disable_in);
 			if (in_array($option,$disable_in)){
 				$hdog_all = '';
 			}
